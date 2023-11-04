@@ -1,0 +1,176 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+}
+
+.rightImage img{
+    position: absolute;
+    /* width: 230px; */
+    height: 95vh;
+    /* left: 0; */
+    /* width: 28%; */
+    top: 0px;
+    right: 0;
+    mix-blend-mode: luminosity;
+}
+
+.design{
+    height: 95vh;
+    width: 84%;
+}
+
+.designContent{
+    display: flex;
+    justify-content: flex-start;
+    height: 87vh;
+
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 69px 0px;
+}
+
+.social-icons{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+.twitter img {
+    /* Twitter Logo*/
+    width: 16px;
+    height: 16px;
+   
+}
+
+.facebook img {
+    /* Facebook Logo */
+
+    width: 10px;
+    height: 16px;
+
+}
+
+.linkedinIcon img {
+    /* linkedinIcon logo */
+
+    width: 16px;
+    height: 15.33px;
+    /* border: 2px; */
+
+}
+
+.instagramIcon img {
+    /* Instagram */
+
+    width: 16px;
+    height: 16px;
+    border: 2px;
+
+}
+
+.number {
+    /* 905 844-7550 */
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transform: rotate(90deg);
+    /* margin-bottom: 109px; */
+}
+
+.heading{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.heroheading h1 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
+.btn button {
+    padding: 22px 50px;
+    color: #FFF;
+    background: #F5900D;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.btn button:hover {
+    background: #FFFFFF;
+    color: #F5900D;
+}
+
+
+.image-1 img{
+    position: absolute;
+    height: 95vh;
+    top: 0px;
+
+    mix-blend-mode: luminosity;
+}
+
+
+/* Hero Section media quries */
+@media only screen and (max-width: 1080px){
+    .image-1 img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 815px){
+    .rightImage img{
+        display: none;
+    }
+
+    .heading{
+        width: 100%;
+    }
+
+    .heroheading h1{
+        text-align: center;
+    }
+    .btn{
+        /* align-items: center; */
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 375px){
+.social{
+    display: none;
+}
+.design{
+    width: 100%;
+}
+}

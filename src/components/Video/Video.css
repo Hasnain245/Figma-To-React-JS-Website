@@ -1,0 +1,37 @@
+.VideoSection {
+    width: 100%;
+    height: auto;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.VideoSection .videoImage {
+    width: 100%;
+    height: 86vh;
+    margin: 35px 0px;
+    background: url(../../images/VideoImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* mix-blend-mode: luminosity; */
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+.playbutton img{
+    position: absolute;
+    flex-shrink: 0;
+    bottom: 58px;
+}
+@media only screen and (max-width: 375px){
+    .videoImage img{
+        display: none;
+    }
+    .playbutton img{
+        display: none;
+    }
+}

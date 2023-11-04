@@ -1,0 +1,66 @@
+.testemonial-section{
+    width: 100%;
+    height: auto;
+    background: #000;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.testemonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+}
+.testemonial .testImage{
+    /* width: 25%; */
+    min-width: 300px;
+    flex-basis: 30%;
+}
+
+.testemonial .testImage img{
+    width: 90%;
+}
+
+.testemonial .testContent{
+/* width: 75%; */
+min-width: 300px;
+    flex-basis: 70%;
+
+}
+
+.testemonial .testContent p{
+    
+color: #5D5D5D;
+font-family: "Plus Jakarta Sans";
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 300;
+line-height: 40px; /* 166.667% */
+}
+
+.testemonial .testContent h3{
+    color: #FFF;
+font-family: "Plus Jakarta Sans";
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.testemonial .testContent h3 span{
+    color: #F5900D;
+font-family: "Plus Jakarta Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+height: 18px;
+flex: 1 0 0;
+margin-left: 40px;
+}

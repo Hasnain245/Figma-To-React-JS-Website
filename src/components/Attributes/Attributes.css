@@ -1,0 +1,227 @@
+.attribute-section {
+    width: 100%;
+    height: auto;
+    background: #000000;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribute {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 35px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/*========== Attribute-1 Styling========== */
+
+
+.attribute-1-main{
+    /* width: 31%; */
+    min-width: 300px;
+    flex-basis: 30%;
+}
+.attribute-1 {
+    width: 100%;
+    flex-basis: 31%;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../../images/BGAttribute1.png), lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.attribute-1 .heading {
+    background: rgba(16, 16, 16, 0.90);
+    width: 90%;
+    height: 281px;
+    flex-shrink: 0;
+    padding: 16px 30px;
+    position: absolute;
+    bottom: -73%;
+    transition: all 0.4s ease-in-out;
+}
+
+.attribute-1:hover .heading {
+    bottom: 0;
+    cursor: pointer;
+}
+
+.attribute-1 .heading h4 {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.attribute-1 .heading p {
+    color: #5D5D5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 17% 0 42% 0;
+}
+
+.attribute-1 .heading hr {
+    width: 100%;
+    height: 1px;
+    opacity: 0.5;
+    background: #5D5D5D;
+    /* position: relative;
+    top: 60px; */
+}
+
+
+/*========== Attribute-2 Styling ==========*/
+
+.attribute-2 {
+    width: 100%;
+    flex-basis: 31%;
+
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../../images/BGAttribute2.png), lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.attribute-2 .heading {
+    background: rgba(16, 16, 16, 0.90);
+    width: 90%;
+    height: 281px;
+    flex-shrink: 0;
+    padding: 16px 30px;
+    position: absolute;
+    bottom: -73%;
+    transition: all 0.4s ease-in-out;
+}
+
+.attribute-2:hover .heading {
+    bottom: 0;
+    cursor: pointer;
+
+}
+
+.attribute-2 .heading h4 {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.attribute-2 .heading p {
+    color: #5D5D5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 17% 0 42% 0;
+}
+
+.attribute-2 .heading hr {
+    width: 100%;
+    height: 1px;
+    opacity: 0.5;
+    background: #5D5D5D;
+    /* position: relative; */
+    /* bottom: -65px; */
+    /* top: 60px; */
+}
+
+
+/*========== Attribute-3 Styling========== */
+
+
+.attribute-3 {
+    width: 100%;
+    flex-basis: 31%;
+
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../../images/BGAttribute3.png), lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.attribute-3 .heading {
+    background: rgba(16, 16, 16, 0.90);
+    width: 90%;
+    height: 281px;
+    flex-shrink: 0;
+    padding: 16px 30px;
+    position: absolute;
+    bottom: -73%;
+    transition: all 0.4s ease-in-out;
+}
+
+.attribute-3:hover .heading {
+    bottom: 0;
+    cursor: pointer;
+
+}
+
+.attribute-3 .heading h4 {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.attribute-3 .heading p {
+    color: #5D5D5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* margin: 49px 0px; */
+    margin: 17% 0 42% 0;
+
+}
+
+.attribute-3 .heading hr {
+    width: 100%;
+    height: 1px;
+    opacity: 0.5;
+    background: #5D5D5D;
+   
+}
+
