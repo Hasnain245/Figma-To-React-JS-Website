@@ -32,8 +32,8 @@ function Blogs() {
               <div className="blog-1-background"></div>
               <div className="blog-1-content">
                 <h3>Read More <span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22" fill="none">
-                  <path d="M2 13H21" stroke="#F5900D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M17 6L24 13L17 20" stroke="#F5900D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2 13H21" stroke="#F5900D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M17 6L24 13L17 20" stroke="#F5900D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg></span></h3>
               </div>
             </div>
@@ -53,8 +53,8 @@ function Blogs() {
               <div className="blog-1-background"></div>
               <div className="blog-1-content">
                 <h3>Read More <span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22" fill="none">
-                  <path d="M2 13H21" stroke="#F5900D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M17 6L24 13L17 20" stroke="#F5900D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2 13H21" stroke="#F5900D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M17 6L24 13L17 20" stroke="#F5900D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg></span></h3>
               </div>
             </div>
@@ -74,8 +74,8 @@ function Blogs() {
               <div className="blog-1-background"></div>
               <div className="blog-1-content">
                 <h3>Read More <span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22" fill="none">
-                  <path d="M2 13H21" stroke="#F5900D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M17 6L24 13L17 20" stroke="#F5900D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2 13H21" stroke="#F5900D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M17 6L24 13L17 20" stroke="#F5900D" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg></span></h3>
               </div>
             </div>

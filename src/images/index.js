@@ -24,6 +24,7 @@ import facebookLogo from "./facebookLogo.png"
 import instagramIcon  from "./instagram-icon.svg"
 import linkedinIcon from "./linkedin-icon.svg"
 import twitterLogo from "./twitterLogo.png"
+import FooterDesign from "./FooterDesign.png"
 
 
 export {
@@ -52,5 +53,6 @@ export {
     facebookLogo,
     instagramIcon,
     linkedinIcon,
-    twitterLogo
+    twitterLogo,
+    FooterDesign
 };

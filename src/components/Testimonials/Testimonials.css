@@ -64,3 +64,9 @@ height: 18px;
 flex: 1 0 0;
 margin-left: 40px;
 }
+
+@media only screen and (max-width: 1090px) {
+    .testemonial .testContent p{
+        text-align: center;
+    }
+}
