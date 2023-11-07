@@ -26,19 +26,19 @@ function Hero() {
         <div className="designContent">
           <div className="social">
             <div className="social-icons ">
-              <a href="www.example.com" className='twitter'>
+              <a href="https://x.com/HaSnain56734401?t=SZ1HOgAgEiYQFL5FMqrtgA&s=09" target='_blank' className='twitter'>
                 <img src={twitterLogo} alt="" />
               </a>
 
-              <a href="www.example.com" className='facebook'>
+              <a href="https://facebook.com/mirza.hasnain.33865" target='_blank' className='facebook'>
                 <img src={facebookLogo} alt="" />
               </a>
 
-              <a href="www.example.com" className='linkedinIcon'>
+              <a href="www.linkedin.com/in/hasnain-ali-3481a4295" target='_blank' className='linkedinIcon'>
                 <img src={linkedinIcon} alt="" />
               </a>
 
-              <a href="www.example.com" className='instagramIcon'>
+              <a href="https://instagram.com/mirza_1433?igshid=OGQ5ZDc2ODk2ZA==" target='_blank' className='instagramIcon'>
                 <img src={instagramIcon} alt="" />
               </a>
             </div>
