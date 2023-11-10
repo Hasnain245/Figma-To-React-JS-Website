@@ -1,19 +1,20 @@
 import React from 'react'
-import {Hero, Attributes, About, Slider, Video, Services, Testimonials, Blogs, Footer} from './components'
+import HomePage from './Pages/HomePage/HomePage';
+import AboutPage from './Pages/AboutPage/AboutPage'
+import ServicesPage from './Pages/ServicesPage/ServicesPage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-    <Hero />
-    <Attributes />
-    <About />
-    <Slider />
-    <Video />
-    <Services />
-    <Testimonials />
-    <Blogs />
-    <Footer />
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/AboutPage' element={<AboutPage />} />
+        <Route path='/ServicesPage' element={<ServicesPage />} />
+      </Routes>
+    </Router>
     </>
   );
 }

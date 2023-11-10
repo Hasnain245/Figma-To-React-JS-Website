@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Services.css"
-import { Style, ServiceLogo1, ServiceLogo2, ServiceLogo3, ServiceLogo4 } from "../../images"
+import { Style } from "../../images"
 
 function Services() {
   return (

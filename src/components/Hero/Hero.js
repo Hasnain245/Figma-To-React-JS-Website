@@ -13,7 +13,7 @@ import {
 
 function Hero() {
 
-  
+
   return (
     <header>
 
@@ -21,30 +21,30 @@ function Hero() {
         <img src={HeroImage2} alt="" />
       </div>
 
-      <div className="design">
         <Navbar />
+      <div className="design">
         <div className="designContent">
           <div className="social">
             <div className="social-icons ">
-              <a href="https://x.com/HaSnain56734401?t=SZ1HOgAgEiYQFL5FMqrtgA&s=09" target='_blank' className='twitter'>
+              <a href="https://x.com/HaSnain56734401?t=SZ1HOgAgEiYQFL5FMqrtgA&s=09" target='_blank' className='twitter' rel="noopener noreferrer">
                 <img src={twitterLogo} alt="" />
               </a>
 
-              <a href="https://facebook.com/mirza.hasnain.33865" target='_blank' className='facebook'>
+              <a href="https://facebook.com/mirza.hasnain.33865" target='_blank' className='facebook' rel="noopener noreferrer">
                 <img src={facebookLogo} alt="" />
               </a>
 
-              <a href="www.linkedin.com/in/hasnain-ali-3481a4295" target='_blank' className='linkedinIcon'>
+              <a href="https://www.linkedin.com/in/hasnain-ali-3481a4295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' className='linkedinIcon' rel="noopener noreferrer">
                 <img src={linkedinIcon} alt="" />
               </a>
 
-              <a href="https://instagram.com/mirza_1433?igshid=OGQ5ZDc2ODk2ZA==" target='_blank' className='instagramIcon'>
+              <a href="https://instagram.com/mirza_1433?igshid=OGQ5ZDc2ODk2ZA==" target='_blank' className='instagramIcon' rel="noopener noreferrer">
                 <img src={instagramIcon} alt="" />
               </a>
             </div>
 
             <div className="number">
-              +905 844 7550
+              +347 585 7872
             </div>
           </div>
 

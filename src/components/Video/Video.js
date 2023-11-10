@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Video.css"
-import { VideoImage, VideoImageDesign, VideoImagePlayButton } from "../../images"
+import {VideoImageDesign, VideoImagePlayButton } from "../../images"
 
 function Video() {
   return (

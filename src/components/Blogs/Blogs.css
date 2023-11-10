@@ -76,7 +76,7 @@
 .blogs .blog-bottom .blog-1 {
     /* width: 31%; */
     cursor: pointer;
-    min-width: 300px;
+    min-width: 286px;
     flex-basis: 30%;
 }
 

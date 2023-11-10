@@ -1,27 +1,27 @@
 import React from 'react'
-import "./About.css"
-import { AboutImage } from '../../images'
+import "./AboutCompany.css"
+import { AboutCompanyImage } from '../../images'
 
-function About() {
+
+function AboutCompany() {
   return (
-    <section className='about-section'>
+    <section className='AboutCompany-section'>
       <div className="row">
 
         <div className="left-side">
-          <img src={AboutImage} alt=''/>
+          <img src={AboutCompanyImage} alt=''/>
         </div>
 
 
         <div className="right-side">
           <div className="content">
             <div className="para">
-              <p>about the agency</p>
+              <p>AboutCompany the agency</p>
             </div>
 
             <div className="content-heading">
-              <h2>We’re Top Notch & Best <br />
-                <span>Web Design & SEO</span> <br />
-                Agency</h2>
+              <h2>Get to know about <br />
+                <span>Stylus Marketing</span></h2>
             </div>
 
             <div className="para-2">
@@ -44,4 +44,4 @@ function About() {
   )
 }
 
-export default About
+export default AboutCompany

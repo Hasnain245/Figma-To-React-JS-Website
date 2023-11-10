@@ -57,7 +57,7 @@
 .footerLeft {
     flex-basis: 60%;
     height: auto;
-    min-width: 300px;
+    min-width: 286px;
     padding-bottom: 25px;
 }
 
@@ -97,7 +97,7 @@
 .footerRight {
     flex-basis: 40%;
     height: auto;
-    min-width: 300px;
+    min-width: 286px;
 }
 
 .footerRight .list-2-top {
@@ -146,7 +146,7 @@
 }
 
 .listBottomForm .Email button {
-    padding: 24px;
+    padding: 22px;
     color: #FFF;
     background: #F5900D;
     font-family: "Plus Jakarta Sans";
@@ -156,12 +156,13 @@
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.4s ease-in-out;
     border-radius: 0px 10px 10px 0px;
 }
 
 .listBottomForm .Email button:hover {
-    background: #8b4f00;
+    background: #000;
+    color: #F5900D;
 }
 
 .footerEndList {
@@ -218,7 +219,8 @@
     .socials-Logo {
         justify-content: center;
     }
-    .footerLogo{
+
+    .footerLogo {
         padding-bottom: 14px;
     }
 }

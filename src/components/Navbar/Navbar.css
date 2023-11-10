@@ -1,16 +1,14 @@
-
 .navbar {
     display: flex;
     align-items: center;
     flex-shrink: 0;
-    /* gap: 24%; */
     justify-content: space-between;
-    margin-left: 52px;
 }
 
 .navElements {
     z-index: 300;
 }
+
 
 .navElements ul {
     display: inline-flex;
@@ -32,16 +30,20 @@
 }
 
 
-.navElements ul li a {
+.navElements ul li button {
     color: #FFF;
     font-family: "Plus Jakarta Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
     transition: all 0.4s ease-in;
 }
 
-.navElements ul li a:hover {
+.navElements ul li button:hover {
     color: #F5900D;
 }
 
@@ -52,22 +54,72 @@
     gap: 9px;
 }
 
-@media only screen and (max-width: 900px){
-    .navbar{
-        flex-direction: column;
-        /* width: 100%; */
-    }
-    .navElements{
-        display: none;
+/* ------Toggle Buttons Stylings----- */
+
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    /* visibility: hidden; */
+    display: none;
+    opacity: 0;
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        margin: 0 52px;
+        padding: 10px;
     }
 
-    .navbarLogo{
+    .navElements {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background: rgba(0, 0, 0, 0.35);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        transition: all 0.6s;
+        transform: translateY(-100vh);
+    }
+
+    .responsive_nav{
+        transform: none;
+    }
+
+
+
+    .navElements ul {
+        flex-direction: column;
+    }
+
+    .navbarLogo {
         align-self: center;
     }
 
+    /* ------Toggle Buttons Media Quires----- */
+    .navElementBtns {
+        z-index: 300;
+    }
+
+    .nav-btn {
+        /* visibility: visible; */
+        display: block;
+        opacity: 1;
+    }
 }
-@media only screen and (max-width: 375px){
-    .navbar{
+
+@media only screen and (max-width: 375px) {
+    .navbar {
         margin: 0;
     }
 }

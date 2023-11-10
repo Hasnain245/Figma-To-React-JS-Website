@@ -5,9 +5,11 @@ function Slider() {
   return (
     <section className='slider-section'>
       
-        <marquee behavior="alternate" direction="right" scrollamount="20">
+        <div className="slider">
+        <p>
         Web Design <span>-</span> Web Development <span>-</span> SEO Agency <span>-</span>
-        </marquee>
+        </p>
+        </div>
      
     </section>
   )

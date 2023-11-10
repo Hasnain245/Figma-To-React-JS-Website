@@ -32,7 +32,7 @@ function Footer() {
             <div className="footerSocials">
               <div className="socialIcons">
                 <div className="icon-1">
-                  <a href="https://x.com/HaSnain56734401?t=SZ1HOgAgEiYQFL5FMqrtgA&s=09" target='_blank'>
+                  <a href="https://x.com/HaSnain56734401?t=SZ1HOgAgEiYQFL5FMqrtgA&s=09" target='_blank' rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                       <circle cx="28" cy="28" r="28" fill="black" />
                       <path d="M39 17.0123C38.0424 17.8405 36.9821 18.4739 35.86 18.8882C35.2577 18.0392 34.4573 17.4374 33.567 17.1643C32.6767 16.8911 31.7395 16.9598 30.8821 17.3611C30.0247 17.7623 29.2884 18.4767 28.773 19.4077C28.2575 20.3387 27.9877 21.4413 28 22.5664V23.7924C26.2426 23.8483 24.5013 23.3704 22.931 22.4014C21.3607 21.4324 20.0103 20.0022 19 18.2384C19 18.2384 15 29.2729 24 34.1771C21.9405 35.8911 19.4872 36.7506 17 36.6293C26 42.7596 37 36.6293 37 22.5296C36.9991 22.1881 36.9723 21.8474 36.92 21.512C37.9406 20.2779 38.6608 18.7199 39 17.0123Z" fill="white" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -40,7 +40,7 @@ function Footer() {
                   </a>
                 </div>
                 <div className="icon-2">
-                  <a href="https://facebook.com/mirza.hasnain.33865" target='_blank'>
+                  <a href="https://facebook.com/mirza.hasnain.33865" target='_blank' rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                       <circle cx="28" cy="28" r="28" fill="black" />
                       <path d="M35 17H31.1818C29.4941 17 27.8755 17.5795 26.682 18.6109C25.4886 19.6424 24.8182 21.0413 24.8182 22.5V25.8H21V30.2H24.8182V39H29.9091V30.2H33.7273L35 25.8H29.9091V22.5C29.9091 22.2083 30.0432 21.9285 30.2819 21.7222C30.5205 21.5159 30.8443 21.4 31.1818 21.4H35V17Z" fill="white" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -48,7 +48,7 @@ function Footer() {
                   </a>
                 </div>
                 <div className="icon-3">
-                  <a href="www.linkedin.com/in/hasnain-ali-3481a4295" target='_blank'>
+                  <a href="https://www.linkedin.com/in/hasnain-ali-3481a4295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                       <circle cx="28" cy="28" r="28" fill="black" />
                       <path d="M32.7917 23.6953C34.5709 23.6953 36.2772 24.4395 37.5352 25.7642C38.7933 27.0888 39.5 28.8855 39.5 30.7588V38.9996H35.0278V30.7588C35.0278 30.1344 34.7922 29.5355 34.3729 29.094C33.9535 28.6524 33.3848 28.4043 32.7917 28.4043C32.1987 28.4043 31.6299 28.6524 31.2105 29.094C30.7912 29.5355 30.5556 30.1344 30.5556 30.7588V38.9996H26.0834V30.7588C26.0834 28.8855 26.7901 27.0888 28.0482 25.7642C29.3063 24.4395 31.0125 23.6953 32.7917 23.6953Z" fill="white" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -58,7 +58,7 @@ function Footer() {
                   </a>
                 </div>
                 <div className="icon-4">
-                  <a href="https://instagram.com/mirza_1433?igshid=OGQ5ZDc2ODk2ZA==" target='_blank'>
+                  <a href="https://instagram.com/mirza_1433?igshid=OGQ5ZDc2ODk2ZA==" target='_blank' rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                       <circle cx="28" cy="28" r="28" fill="black" />
                       <path d="M33.5 17H22.5C19.4624 17 17 19.4624 17 22.5V33.5C17 36.5376 19.4624 39 22.5 39H33.5C36.5376 39 39 36.5376 39 33.5V22.5C39 19.4624 36.5376 17 33.5 17Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -120,7 +120,7 @@ function Footer() {
 
                   <div className="Email">
                     <form onSubmit={handleSubmit}>
-                      <input type="email"  onChange={handleEmailChange} placeholder="Enter your email to subscribe" required />
+                      <input type="email"  onChange={handleEmailChange} placeholder="Enter Your Email" required />
                       <button type='submit'>Subscribe</button>
                     </form>
                   </div>

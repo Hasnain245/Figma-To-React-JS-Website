@@ -1,0 +1,62 @@
+.BrandsSection{
+    background-color: #000;
+    width: 100%;
+    height: auto;
+}
+
+.BrandsMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.BrandsTop{
+     display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 16vh;
+    gap: 22px;
+}
+.BrandsTop hr{
+        width: 42%;
+    height: 1px;
+    opacity: 0.5;
+background: #5D5D5D;
+}
+.BrandsTop p{
+    color: #5D5D5D;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.BrandsBottom{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+
+}
+.AllBrands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.AllBrands svg{
+    color: #5D5D5D;
+    transition: all 0.4s ease-in-out;
+}
+.AllBrands svg:hover{
+    color: #FFFFFF;
+    /* transform: scale(0.9); */
+    cursor: pointer;
+}
+.BrandsSVGs{
+    min-width: 160px;
+    flex-basis: 15%;
+    padding-bottom: 20px;
+}
