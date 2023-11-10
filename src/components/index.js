@@ -9,8 +9,7 @@ import Blogs from './Blogs/Blogs'
 import Footer from './Footer/Footer'
 import AboutCompany from './AboutCompany/AboutCompany'
 import Brands from './Brands/Brands'
-import WhyUs from './WhyUs/WhyUs'
 import ServicesPageHeader from './ServicesPageHeader/ServicesPageHeader'
 import AboutPageHeader from './AboutPageHeader/AboutPageHeader'
 
-export { Hero, Attributes, About, Slider, Video, Services, Testimonials, Blogs, Footer, AboutCompany, Brands, WhyUs, ServicesPageHeader, AboutPageHeader }
+export { Hero, Attributes, About, Slider, Video, Services, Testimonials, Blogs, Footer, AboutCompany, Brands, ServicesPageHeader, AboutPageHeader }
